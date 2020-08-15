@@ -8,9 +8,10 @@ public class C extends A {
     // correction
     @Override
     public boolean foo(int n) {
-        if (_aVal < 5 || _cVal < 7) {
-            return true;
-        }
-        return (n < 5);
+        return (n == 1);
+//         if (_aVal < 5 || _cVal < 7) {
+//             return true;
+//         }
+//         return (n < 5);
     }
 }

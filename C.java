@@ -13,5 +13,9 @@ public class C extends A {
 //             return true;
 //         }
 //         return (n < 5);
+        
+        // another option:
+//       if (_aVal < 1 && _cVal > 1) {
+//        return true;        
     }
 }
